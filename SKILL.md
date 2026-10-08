@@ -1,45 +1,48 @@
 ---
 name: ielts-topic-vocabulary
-description: Create IELTS vocabulary lessons and contextual English articles around a chosen or rotating theme. Use for daily vocabulary articles, topic-based word packs, collocations, or vocabulary review; adapt themes and difficulty to the learner.
+description: Create IELTS vocabulary lessons and contextual English articles around a chosen or rotating theme. Use for topic-based vocabulary, collocations, or review; adapt to the learner's current level and practical goals.
 ---
 
 # IELTS Topic Vocabulary
 
-Create useful, memorable IELTS vocabulary practice through themes the learner chooses. Support both exam preparation and practical English goals such as work, study, migration, or a particular industry.
+Create useful vocabulary practice through themes the learner chooses. Support IELTS preparation and practical English for work, study, migration, or a particular industry. This is a vocabulary-learning aid, not a complete IELTS course or a source of official test material.
 
 ## Choose a mode
 
 - **Article lesson**: write a coherent English article around a requested or rotating theme, then teach its target vocabulary.
 - **Topic pack**: group words and collocations by subtopic when the learner asks for a list or focused vocabulary.
-- **Review**: quiz the learner on words already introduced, then explain errors and useful collocations.
+- **Review**: quiz the learner on words already introduced, then correct errors and recycle missed items.
 
-If the learner asks for a daily lesson or the prompt comes from a scheduled automation, make that day's lesson directly. Otherwise, use the specified theme and format. If a detail is missing, make a reasonable default and continue rather than interrupting the lesson.
+If the learner asks for a daily lesson or the prompt comes from a scheduled automation, make that day's lesson directly. Otherwise use the specified theme and format. Make reasonable defaults instead of interrupting for nonessential details.
 
-## Adapt the lesson
+## Calibrate the lesson
 
-- Respect the learner's stated IELTS target, current level, purpose, interests, and preferred daily quantity when available. Do not infer a band score from unrelated exam results.
-- If level is unknown, use clear intermediate English and briefly explain less common terms. Keep examples natural and reusable.
-- Use the requested theme. For rotation, choose a different topic family from recent lessons when history is available. See [references/topics.md](references/topics.md) for a broad topic map.
-- If no quantity is specified, make a compact lesson with 10–15 focus items. If the learner requests 100, provide 100 numbered vocabulary entries. Treat 10–15 as that day's priority items and the rest as exposure or review vocabulary so the learner can focus effort without silently ignoring the requested quantity.
-- Prefer useful IELTS words, academic vocabulary, precise verbs, and natural collocations. Avoid obscure words, duplicate headwords, padding, and thesaurus substitutions that do not fit the context. Count each distinct headword or phrase once.
+- Use the learner's stated current level, demonstrated performance, goals, and interests. An IELTS target score is not the same as current proficiency; do not infer either from unrelated exam scores.
+- If current level is unknown, start with accessible intermediate English, explain uncommon terms briefly, and adjust from the learner's responses. Ask one concise calibration question only when the answer would materially change the lesson.
+- If asked to assess level, offer a short informal check of meaning, paraphrase, and sentence use. Describe the result as an approximate learning level, not a validated CEFR result or IELTS band prediction.
+- Treat level labels as practical difficulty settings, not formal equivalences: easier/common, intermediate, or advanced/nuanced. Keep examples natural and reusable.
+- Choose useful, reasonably common IELTS or academic vocabulary, precise verbs, and natural collocations. Avoid obscure words, duplicates, padding, and forced thesaurus substitutions. Do not claim a word is frequent, band-specific, or corpus-verified unless that evidence is actually available.
+- Use the requested theme. For rotation, choose a different topic family from recent lessons when history is available. See [references/topics.md](references/topics.md) for the topic map.
+- If no quantity is specified, make a compact lesson with 10–15 focus items. If the learner requests 100, provide 100 numbered entries, with 10–15 clearly marked as priority and the rest as exposure/review. Do not encourage equal mastery of all 100 in one sitting.
 
 ## Article lesson format
 
-When asked for an article:
+1. Give a short title and a coherent English article matched to the learner's level and theme. Use target vocabulary naturally and bold each target item at first appearance.
+2. Teach every requested item. If the full set will not fit naturally, keep the article coherent and teach the remaining items through contextual example sentences after it.
+3. Number the vocabulary entries and provide part of speech, concise meaning in the learner's preferred language, a natural collocation, and a short contextual example. Mark priority items clearly when the list is large.
+4. Add a short retrieval task (typically 3–5 questions) and put answers after a clear separator so the learner can self-test first. Prefer recall, paraphrase, or sentence production over recognition-only questions.
+5. For a compact lesson, use [references/example-lesson.md](references/example-lesson.md) as a format example; adapt its content rather than copying it.
+6. Never present generated content as an official IELTS passage, authentic test material, or guaranteed score improvement.
 
-1. Give a short title and an English article matched to the learner's level and theme. Use target vocabulary naturally; bold each target item at its first appearance.
-2. Ensure every requested vocabulary item is taught. If the full set cannot fit naturally in the article, keep the article coherent and teach the remaining items through short contextual example sentences immediately after it.
-3. Number the vocabulary entries and provide part of speech, concise Chinese meaning (or the learner's requested language), a natural collocation, and a short example or contextual use. Mark the 10–15 focus items clearly when the total is large.
-4. Add a brief practice task that requires recall or use, such as fill-in-the-blank, paraphrase matching, or a short response. Put answers after a clear separator so the learner can self-test first.
-5. Keep the article educational rather than claiming to be an official IELTS passage or authentic test material. Never fabricate an official source or test provenance.
+## Review and retention
 
-## Topic packs and review
+- When conversation history is available, prioritize previously introduced and missed items; ask the learner to recall meaning or use before revealing answers when practical.
+- Recycle missed items sooner and well-remembered items later when the history supports it. A suggested 1-, 3-, or 7-day revisit is a lightweight study plan, not a claim of algorithmic spaced repetition.
+- If prior history is unavailable, say so briefly and ask the learner to paste their word list or use a copy-ready review queue. Do not claim to remember or track words across chats unless an available study log actually does so.
+- Do not create or modify tracking files unless the learner asks for ongoing tracking. If asked, keep a compact, learner-readable record of word, meaning, date introduced, and review outcome; do not store unrelated personal data.
+- Correct errors specifically, distinguish confusing near-synonyms only when useful, and invite the learner to produce a sentence with a few focus items.
+
+## Topic packs and tone
 
 - For a topic pack, organize entries by useful function or part of speech and include collocations plus short examples. Add synonym contrasts only when they clarify usage.
-- For review, ask the learner to recall meaning or use before revealing the answer when practical. Correct misunderstandings and prioritize retrieval over adding many new words.
-- Reuse earlier vocabulary in later examples when history is visible. Do not claim a word is new or non-repeated if earlier lesson history is unavailable.
-- Do not save learner data or create files unless the user requests ongoing tracking or an available study system already specifies it.
-
-## Tone
-
-Explain in the learner's preferred language, keep English examples natural and concise, and teach the difference between similar expressions through context. Encourage the learner to produce a sentence with a few focus items after the lesson; correct that sentence specifically instead of giving generic praise.
+- Explain in the learner's preferred language. Keep English examples concise, natural, and appropriate to the selected difficulty.
