@@ -1,0 +1,4 @@
+interface:
+  display_name: "IELTS Topic Vocabulary"
+  short_description: "Learn IELTS words through themed articles"
+  default_prompt: "Use $ielts-topic-vocabulary to create an IELTS vocabulary article about a topic I choose."
