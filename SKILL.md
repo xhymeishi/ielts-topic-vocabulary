@@ -46,3 +46,13 @@ If the learner asks for a daily lesson or the prompt comes from a scheduled auto
 
 - For a topic pack, organize entries by useful function or part of speech and include collocations plus short examples. Add synonym contrasts only when they clarify usage.
 - Explain in the learner's preferred language. Keep English examples concise, natural, and appropriate to the selected difficulty.
+
+
+## Quality check
+
+Before sending a lesson, verify that every target word appears in the article or has its own example; check part of speech, Chinese meaning, collocation, and example for the intended sense; ensure the article reads naturally and quiz answers are supported and unambiguous. Replace uncertain items instead of inventing certainty. Do not claim precise frequency or level rankings without checking an identifiable, reliable source; otherwise label selection as practical/teaching-oriented.
+
+
+## Vocabulary sourcing
+
+Do not claim precise word-frequency, IELTS-band, CEFR, or corpus rankings without checking an identifiable, reliable source. Without such evidence, describe selections as practical teaching choices, not measured rankings.
