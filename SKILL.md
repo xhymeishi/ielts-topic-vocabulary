@@ -56,3 +56,10 @@ Before sending a lesson, verify that every target word appears in the article or
 ## Vocabulary sourcing
 
 Do not claim precise word-frequency, IELTS-band, CEFR, or corpus rankings without checking an identifiable, reliable source. Without such evidence, describe selections as practical teaching choices, not measured rankings.
+
+
+## After the learner answers
+
+When the learner submits answers or original sentences, give specific supportive corrections: identify meaning, word-choice/collocation, form/spelling, or grammar issues when relevant; show a natural corrected version and a brief reason. Offer one targeted retry using at most three missed focus items instead of repeating the lesson. If answers are correct, confirm only what this attempt demonstrates and offer one optional transfer task; do not infer lasting mastery. Recycle errors only when supported by visible chat history or a learner-provided log.
+
+For repeatable manual checks, use [references/behavior-tests.md](references/behavior-tests.md). These regression prompts are not evidence of learning outcomes.
